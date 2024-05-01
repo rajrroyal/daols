@@ -1,0 +1,987 @@
+.mobile_profileleft {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    background-color: #5BBC2E;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-top: 135px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.sidenav a:hover {
+    color: #FFFFFF;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .portfolio-box {
+        width: 205px;
+    }
+    .testimonial-list .testimonial-image {
+        width: 20%;
+    }
+    .testimonial-list .testimonial-text {
+        width: 80%;
+    }
+    .call-to-action-text p {
+        width: 75%;
+    }
+    .call-to-action-text .call-to-action-button {
+        width: 25%;
+    }
+    .logomar {
+        margin-top: 0;
+    }
+    .cd-sign {
+        margin-left: -20px;
+        margin-top: -15px;
+    }
+    .sm-icn {
+        margin-right: -17px;
+        margin-left: -20px;
+        margin-top: -9px;
+        margin-bottom: 11px;
+    }
+    .strtsavingbtn {
+        height: 45px !important;
+        color: #fff!important;
+        background: #C13528!important;
+        border-radius: 5px !important;
+        margin-right: -280px !important;
+        font-weight: bold !important;
+        margin-top: 0px !important;
+        width: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    ul.navbar-nav li a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .flex-caption {
+        bottom: 20px;
+    }
+    .page-title-container p {
+        display: block;
+        margin: 10px 0 6px 0;
+        line-height: 24px;
+    }
+    .portfolio-box {
+        width: 210px;
+    }
+    .testimonial-list .testimonial-image {
+        width: 25%;
+    }
+    .testimonial-list .testimonial-text {
+        width: 75%;
+    }
+    .team-social {
+        right: auto;
+        width: 100%;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .team-social a {
+        margin-bottom: 3px;
+    }
+    .call-to-action-text p {
+        width: 75%;
+    }
+    .call-to-action-text .call-to-action-button {
+        width: 25%;
+        text-align: center;
+    }
+    .flickr-feed a {
+        width: 50px;
+        margin-right: 2px;
+    }
+    .logomar {
+        margin-top: 0;
+    }
+    .footer-headings {
+        font-size: 15px;
+        color: #fff;
+        margin-top: 30px;
+    }
+    .topnav-othr {
+        border-right: solid 1px #DEDEDE;
+        height: 105px;
+        width: 100px;
+    }
+    ul.navbar-nav {
+        font-size: 10px;
+        color: #888;
+    }
+    .topnav-hom {
+        border-right: solid 1px #DEDEDE;
+        border-left: solid 1px #DEDEDE;
+        height: 105px;
+        width: 100px;
+        display: inline-block;
+    }
+    .fot-list {
+        color: #fff !important;
+        font-size: 15px;
+        line-height: 1.5em;
+        margin-left: -40px;
+    }
+    .footcdheading {
+        font-size: 20px;
+    }
+    .getintouch h1 {
+        color: #fff;
+        font-weight: 300;
+        float: left;
+        font-size: 20px;
+    }
+    .you h1 {
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
+    .strtsavingbtn {
+        height: 45px !important;
+        color: #fff!important;
+        background: #C13528!important;
+        border-radius: 5px !important;
+        margin-right: 20px !important;
+        font-weight: bold !important;
+        margin-top: 40px !important;
+        width: 200px;
+    }
+    .signup-btn3 {
+        width: 150px;
+        height: 60px !important;
+        margin-top: 85px !important;
+        color: #fff !important;
+        background: #838383 !important;
+        border-radius: 5px !important;
+        font-weight: bold !important;
+        font-size: 18px;
+        margin-bottom: 15px !important;
+    }
+    .sub h2 {
+        position: absolute;
+        top: 115px;
+        left: 5px;
+        width: 100%;
+        color: #5BBC2E;
+        font-size: 15px !important;
+    }
+    .welcomecd {
+        font-size: 25px;
+        margin-top: 10px;
+        color: #5BBC2E;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .whatwedo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navbar-brand {
+        background-image: url(../images/logo.png) !important;
+        background-repeat: no-repeat !important;
+        width: 200px !important;
+    }
+    .logomar {
+        margin-top: 0;
+    }
+    .abt-txt {
+        font-size: 30px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav>li {
+        display: inline-block;
+    }
+    .navbar>.container .navbar-brand {
+        margin-left: 5px;
+    }
+    .navbar-collapse {
+        border: 0;
+    }
+    .navbar-toggle {
+        margin-top: 25px;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    ul.navbar-nav li a {
+        padding: 15px 20px;
+        text-align: left;
+    }
+    ul.navbar-nav li a br {
+        display: none;
+    }
+    ul.navbar-nav li a span {
+        padding-right: 7px;
+    }
+    .navbar-nav .open .dropdown-menu>li>a,
+    .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 15px 20px;
+    }
+    .flex-caption {
+        bottom: 0;
+        width: 100%;
+    }
+    .page-title-container p {
+        display: block;
+        margin: 10px 0 6px 0;
+        line-height: 24px;
+    }
+    .work-title h2,
+    .testimonials-title h2,
+    .team-title h2 {
+        width: auto;
+        text-align: center;
+    }
+    .work,
+    .team-box {
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portfolio-masonry {
+        padding: 0;
+    }
+    .portfolio-box {
+        width: 100%;
+        margin: 30px 0 0 0;
+        padding: 0 30px;
+    }
+    .portfolio-box-container {
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portfolio-filters {
+        text-align: center;
+    }
+    .testimonial-list .testimonial-image {
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    .testimonial-list .testimonial-text {
+        float: none;
+        width: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .testimonial-list .nav-tabs {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .testimonial-icon {
+        display: none;
+    }
+    .call-to-action-text p {
+        float: none;
+        width: auto;
+        padding-left: 0;
+        text-align: center;
+    }
+    .call-to-action-text .call-to-action-button {
+        float: none;
+        width: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-right: 0;
+        text-align: center;
+    }
+    footer {
+        padding-top: 20px;
+    }
+    .footer-box {
+        text-align: center;
+    }
+    .footer-box-text-subscribe input[type="text"] {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flickr-feed a {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .footer-copyright,
+    .footer-social {
+        text-align: center;
+    }
+    .footer-social a {
+        margin: 0 5px;
+    }
+    .logomar {
+        margin-top: 0;
+    }
+    .abt-why {
+        color: #534672;
+        font-size: 26px;
+        padding: 2% 0;
+        text-align: left;
+        text-transform: none;
+    }
+    .abt-txt {
+        font-size: 15px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+    .page-body {
+        padding-top: 105px;
+        padding-bottom: 60px;
+        background-color: #F2F0F1;
+    }
+    .signup-cd {
+        font-size: 27px;
+        color: #000;
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .getintouch h1 {
+        color: #fff;
+        font-weight: 300;
+        float: left;
+        font-size: 17px;
+    }
+    .prfl-brdr {
+        border-left: 0px solid #929292;
+    }
+    .sub h2 {
+        position: relative;
+        top: 0;
+        width: 100%;
+        color: #5BBC2E;
+        font-size: 20px !important;
+    }
+    .welcomecd {
+        font-size: 25px;
+        margin-top: 10px;
+        color: #5BBC2E;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .whatwedo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feedbk-btn {
+        text-align: center !important;
+    }
+    .strtsavingbtn {
+        height: 45px !important;
+        color: #fff!important;
+        background: #C13528!important;
+        border-radius: 5px !important;
+        margin-right: 20px !important;
+        font-weight: bold !important;
+        margin-top: 10px !important;
+        width: 200px;
+    }
+    .prfl-lft {
+        margin-left: 0px;
+    }
+    .profiledetail {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 100;
+        margin-left: 0px;
+    }
+    .martop {
+        margin-top: 0px;
+    }
+    .editprofile {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 100;
+        margin-left: 80px;
+    }
+    .svchng-btn {
+        border-radius: 5px !important;
+        margin-bottom: 25px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        background: #5BBC2E !important;
+        font-size: 15px;
+        height: 40px !important;
+        width: 150px;
+        /* margin-top: 10px !important; */
+    }
+    .getintouch {
+        background: #5BBC2E;
+        display: none;
+    }
+    .page-body-new {
+        padding-top: 105px;
+        padding-bottom: 60px;
+    }
+    .chs-pric {
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 0px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+    .profile-mar {
+        margin-top: 20px;
+        display: none;
+    }
+    .mobile_profileleft {
+        display: block;
+        text-align: left;
+        padding: 6px;
+        background: #5BBC2E;
+        color: #fff;
+        margin: 0 15px;
+    }
+    .mediaoverflow {
+        overflow: scroll;
+    }
+}
+
+@media (min-width: 471px) and(max-width: 600px) {
+    .flex-direction-nav a {
+        top: 10%;
+    }
+    .logomar {
+        margin-top: 0;
+    }
+    .mediafont {
+        font-size: 30px;
+    }
+    .adcardmar {
+        margin-left: 90px;
+    }
+    .svchng-btn {
+        border-radius: 5px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        background: #5BBC2E !important;
+        font-size: 15px;
+        height: 40px !important;
+        width: 135px;
+        /* margin-top: 10px !important; */
+    }
+    .editprofile {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 100;
+        margin-left: 0px;
+    }
+    .profiledetail {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 100;
+        margin-left: 0px;
+    }
+    .martop {
+        margin-top: -10px;
+    }
+    .prfl-lft {
+        margin-left: 0px;
+    }
+    .you h1 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .getintouch h1 {
+        color: #fff;
+        font-weight: 300;
+        float: left;
+        font-size: 23px;
+    }
+    .strtsavingbtn {
+        height: 45px !important;
+        color: #fff!important;
+        background: #C13528!important;
+        border-radius: 5px !important;
+        margin-right: 0px !important;
+        font-weight: bold !important;
+        margin-top: 90px !important;
+        width: 200px;
+    }
+    .sub h2 {
+        position: absolute;
+        top: 85px;
+        left: 5px;
+        width: 100%;
+        color: #5BBC2E;
+        font-size: 15px !important;
+    }
+    .welcomecd {
+        font-size: 25px;
+        margin-top: 10px;
+        color: #5BBC2E;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .whatwedo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feedbk-btn {
+        text-align: center !important;
+    }
+    .prfl-brdr {
+        border-left: 0px solid #929292;
+    }
+    .getintouch {
+        background: #5BBC2E;
+        display: none;
+    }
+    .page-body-new {
+        padding-top: 105px;
+        padding-bottom: 60px;
+    }
+    .abt-why {
+        color: #534672;
+        font-size: 26px;
+        padding: 2% 0;
+        text-align: left;
+        text-transform: none;
+    }
+    .abt-txt {
+        font-size: 15px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+    .chs-pric {
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 0px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+    .profile-mar {
+        margin-top: 20px;
+        display: none;
+    }
+    .mediaoverflow {
+        overflow: scroll;
+    }
+    h2.pricing_lbl {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 470px) {
+    .flex-caption {
+        display: none;
+    }
+    .flex-direction-nav a {
+        top: 50%;
+    }
+    .team-social {
+        right: auto;
+        width: 100%;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .team-social a {
+        margin-bottom: 3px;
+    }
+    .navbar-brand {
+        background-image: url(../img/logo@2x.png) !important;
+        background-repeat: no-repeat !important;
+        width: 200px !important;
+    }
+    .logomar {
+        margin-top: 0;
+    }
+    .adcardmar {
+        margin-left: -20px;
+    }
+    .loyaltycard-cancelbtn {
+        border-radius: 5px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        background: #5BBC2E !important;
+        font-size: 15px;
+        height: 40px !important;
+        width: 100px;
+        margin-top: -70px !important;
+        margin-left: -90px !important;
+    }
+    .mediaaddcard {
+        font-size: 18px;
+    }
+    .abt-txt {
+        font-size: 30px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+    .chngpassmar {
+        margin-left: 0px;
+    }
+    .mediachngpasstxt {
+        font-size: 25px;
+    }
+    .editprofile {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 100;
+        margin-left: 0px;
+    }
+    .getintouch {
+        background: #5BBC2E;
+        display: none;
+    }
+    .cancelbtn {
+        margin-left: 0px !important;
+        border-radius: 5px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        background: #5BBC2E !important;
+        font-size: 12px;
+        height: 40px !important;
+        width: 90px;
+    }
+    .svchng-btn {
+        border-radius: 5px !important;
+        margin-bottom: 3px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        background: #5BBC2E !important;
+        font-size: 15px;
+        height: 40px !important;
+        width: 95px;
+        /* margin-top: 10px !important; */
+    }
+    .sub h2 {
+        position: relative;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        color: #5BBC2E;
+        font-size: 13px !important;
+    }
+    .strtsavingbtn {
+        height: 45px !important;
+        color: #fff!important;
+        background: #C13528!important;
+        border-radius: 5px !important;
+        margin-right: 20px !important;
+        font-weight: bold !important;
+        margin-top: 0px !important;
+        width: 200px;
+        display: inline-block;
+    }
+    /*
+.strtsavingbtn {
+       height: 45px !important;
+    color: #fff!important;
+    background: #C13528!important;
+    border-radius: 5px !important;
+    margin-right: 20px !important;
+    font-weight: bold !important;
+    margin-top: 100px !important;
+    width: 200px;
+}*/
+    .page-body {
+        padding-top: 170px;
+        padding-bottom: 60px;
+        background-color: #F2F0F1;
+    }
+    .you h1 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .getintouch h1 {
+        color: #fff;
+        font-weight: 300;
+        float: left;
+        font-size: 19px;
+    }
+    .welcomecd {
+        font-size: 20px;
+        margin-top: 10px;
+        color: #5BBC2E;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    .feedbk-btn {
+        text-align: center !important;
+    }
+    .whatwedo {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .testi-what {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #4A4A4A;
+    }
+    /*
+.sub h2 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    color: #5BBC2E;
+    font-size: 13px !important;
+}*/
+    .top-btns {
+        width: 110px;
+        height: 35px !important;
+        color: #4A4A4A !important;
+        background: #D5D5D5 !important;
+        border-radius: 5px !important;
+        margin-right: 10px !important;
+        font-weight: bold !important;
+    }
+    .prfl-brdr {
+        border-left: 0px solid #929292;
+    }
+    .navbar-new {
+        margin-top: 5px;
+        margin-right: -20px;
+        margin-bottom: -15px;
+    }
+    .media-profile-headings {
+        font-size: 15px;
+    }
+    .prfl-lft {
+        margin-left: 0px;
+    }
+    .media-margin-left {
+        margin-left: -30px;
+    }
+    .media-profile-editbtn {
+        border-radius: 5px !important;
+        background: #5BBC2E !important;
+        font-size: 13px;
+        height: 40px !important;
+        width: 200px;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .profiledetail {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 100;
+        margin-left: -13px;
+    }
+    .mediamartop {
+        margin-top: 0px;
+        margin-left: -13px;
+    }
+    .page-body-new {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+    .signup-cd {
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .abt-why {
+        color: #534672;
+        font-size: 22px;
+        padding: 2% 0;
+        text-align: left;
+        text-transform: none;
+    }
+    .abt-txt {
+        font-size: 15px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+    .chs-pric {
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 0px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+    .profile-mar {
+        margin-top: 20px;
+        display: none;
+    }
+    .mediaoverflow {
+        overflow: scroll;
+    }
+    .loycar-canbtn {
+        margin-left: -110px !important;
+        margin-top: -44px !important;
+        border-radius: 5px !important;
+        margin-bottom: 25px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        background: #5BBC2E !important;
+        font-size: 15px;
+        height: 40px !important;
+        width: 100px;
+    }
+    h2.pricing_lbl {
+        margin-top: 10px;
+    }
+}
+
+
+/* Retina-ize images/icons */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 2dppx) {
+    /* logo */
+    .navbar-brand {
+        background-image: url(../images/logo.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: 80px 80px !important;
+    }
+    .logomar {
+        margin-top: 0;
+    }
+    .getintouch {
+        background: #5BBC2E;
+        display: none;
+    }
+}
+
+
+/* New changes */
+
+@media (max-width: 480px) {
+    .home-section-3 .content {
+        margin: 0;
+        width: 100%;
+    }
+    .home-section-2 .content {
+        margin: 0 auto 20px;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    p.banner_subline {
+        padding: 10px 5px;
+        font-size: 8px;
+    }
+    .home-section-4 .content {
+        padding-top: 0px;
+    }
+    p.banner_subline .fa-circle {
+        font-size: 6px;
+        margin-top: 0px;
+    }
+    .container.home-section-2,
+    .container.home-section-3,
+    .container.home-section-4,
+    .container.home-section-5 {
+        margin-top: 30px;
+    }
+    .home-section-5 .col-sm-3 .image {
+        margin-top: 3%;
+    }
+    .home-section-5 .col-sm-3 .content {
+        margin: 10px auto;
+    }
+    .image.circle img {
+        padding: 5% 18%;
+    }
+    .home-section-5 p.banner_subline .fa-circle {
+        font-size: 10px;
+        margin-top: -4px;
+    }
+    .home-section-5 p.banner_subline {
+        font-size: 16px;
+    }
+    .container {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .container .content {
+        width: 100%;
+    }
+    .home-section-3 .content {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .home-section-3 .content {
+        margin: 0;
+    }
+    .home-section-4 .content {
+        padding-top: 10%;
+    }
+    .home-section-5 .col-sm-3 {
+        display: inline-block;
+    }
+    .home-section-5 .col-sm-3 .image {
+        padding: 2% 6% 6% 6%;
+        margin: 0px;
+    }
+}
+
+
+}
+@media (max-width: 812px) {
+    .home-section-3 .content {
+        margin: 0;
+    }
+    
+    .home-section-4 .content {
+        padding-top: 10%;
+    }
+    
+    .home-section-5 .col-sm-3 {
+        display: inline-block;
+    }
+    
+    .home-section-5 .col-sm-3 .image {
+        padding: 2% 6% 6% 6%;
+        margin: 0px;
+    }
+}
